@@ -2,3 +2,4 @@ node_modules
 bower_components
 .yo-rc.json
 npm-debug.log
+src/css/main.css
