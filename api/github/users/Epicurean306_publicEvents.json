@@ -1,0 +1,2335 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 10 Jun 2015 12:50:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 126976
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 49
+X-RateLimit-Reset: 1433944036
+Cache-Control: public, max-age=60, s-maxage=60
+Last-Modified: Tue, 09 Jun 2015 16:37:43 GMT
+ETag: "009475865bac481a526d4733a26b3fe4"
+X-Poll-Interval: 60
+Vary: Accept
+X-GitHub-Media-Type: github.v3
+Link: <https://api.github.com/user/11682684/events/public?page=2>; rel="next", <https://api.github.com/user/11682684/events/public?page=10>; rel="last"
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: deny
+Content-Security-Policy: default-src 'none'
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+X-GitHub-Request-Id: 472A374E:06C4:DDC96C6:55783284
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+X-Served-By: c6c65e5196703428e7641f7d1e9bc353
+
+[
+  {
+    "id": "2878289469",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 690274970,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "a9eb2df3a8d5398c81ac1c7545f9e9b54eb9b55d",
+      "before": "f7d1c77c9811d0d33393f603620c828d528325f6",
+      "commits": [
+        {
+          "sha": "a9eb2df3a8d5398c81ac1c7545f9e9b54eb9b55d",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "some progress",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/a9eb2df3a8d5398c81ac1c7545f9e9b54eb9b55d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T23:37:43Z"
+  },
+  {
+    "id": "2878258419",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 690264245,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "f7d1c77c9811d0d33393f603620c828d528325f6",
+      "before": "beba55b1c4b2bfe95a6bbf350892961783b4a7f7",
+      "commits": [
+        {
+          "sha": "f7d1c77c9811d0d33393f603620c828d528325f6",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "more questions",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/f7d1c77c9811d0d33393f603620c828d528325f6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T23:22:42Z"
+  },
+  {
+    "id": "2878184063",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "ref": "feature/sass-refactor",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Github profile with data from the Github API",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-09T22:49:08Z"
+  },
+  {
+    "id": "2877339779",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "id": 86686070,
+        "number": 256,
+        "title": "23 -- Return to the Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-09T18:13:31Z",
+        "updated_at": "2015-06-09T18:19:34Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110454037",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256#issuecomment-110454037",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "id": 110454037,
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-09T18:19:33Z",
+        "updated_at": "2015-06-09T18:19:33Z",
+        "body": "https://github.com/Epicurean306/TIY-Github/pull/3"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:19:34Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2877334741",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "id": 86686070,
+        "number": 256,
+        "title": "23 -- Return to the Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-09T18:13:31Z",
+        "updated_at": "2015-06-09T18:17:59Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110453695",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256#issuecomment-110453695",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "id": 110453695,
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-09T18:17:58Z",
+        "updated_at": "2015-06-09T18:17:58Z",
+        "body": "https://github.com/Epicurean306/epicurean306.github.io/pull/12"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:18:01Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2877319980",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/256",
+        "id": 86686070,
+        "number": 256,
+        "title": "23 -- Return to the Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-09T18:13:31Z",
+        "updated_at": "2015-06-09T18:13:31Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `23 -- Return to the Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * What are the endpoints for fetching...\r\n    * the profile data for a user?\r\n    * the organizations a user belongs to?\r\n    * the repositories a user has created?\r\n    * a filtered list of repositories?\r\n    * a sorted list of repositories?\r\n    * public events for a user?\r\n  * When fetching public events for a user...\r\n    * How many results are returned by default?\r\n    * What limitations exist on fetching _more_ results?\r\n    * What is the basic structure of the results?\r\n    * What fields are included in each result?\r\n    * What are the data types for each field?\r\n    * What are some of the different values for the `type` field?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-09T18:13:31Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2876648662",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689682765,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "beba55b1c4b2bfe95a6bbf350892961783b4a7f7",
+      "before": "02bf704f89b70afa265507ccf79274a7fe60a090",
+      "commits": [
+        {
+          "sha": "beba55b1c4b2bfe95a6bbf350892961783b4a7f7",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "Update github-api.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/beba55b1c4b2bfe95a6bbf350892961783b4a7f7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T15:02:08Z"
+  },
+  {
+    "id": "2876156913",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689500942,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "02bf704f89b70afa265507ccf79274a7fe60a090",
+      "before": "3c61a48997e9044a3c5601ac2c807a4472a60835",
+      "commits": [
+        {
+          "sha": "02bf704f89b70afa265507ccf79274a7fe60a090",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "fixed markdown numbering",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/02bf704f89b70afa265507ccf79274a7fe60a090"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T12:45:32Z"
+  },
+  {
+    "id": "2876154417",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689500005,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "3c61a48997e9044a3c5601ac2c807a4472a60835",
+      "before": "8f4107395369f1fab303f5bed20e2bcffddaf96d",
+      "commits": [
+        {
+          "sha": "3c61a48997e9044a3c5601ac2c807a4472a60835",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "slightly edited second draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/3c61a48997e9044a3c5601ac2c807a4472a60835"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T12:44:37Z"
+  },
+  {
+    "id": "2876141496",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689495281,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "8f4107395369f1fab303f5bed20e2bcffddaf96d",
+      "before": "9aec296998068e38b8f319935ed219dcb9914040",
+      "commits": [
+        {
+          "sha": "8f4107395369f1fab303f5bed20e2bcffddaf96d",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "rough draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/8f4107395369f1fab303f5bed20e2bcffddaf96d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T12:40:06Z"
+  },
+  {
+    "id": "2876076190",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689471449,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "9aec296998068e38b8f319935ed219dcb9914040",
+      "before": "f91a0dd2b7ca4a1d6013e8854f38fc38046eba54",
+      "commits": [
+        {
+          "sha": "9aec296998068e38b8f319935ed219dcb9914040",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "rough draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/9aec296998068e38b8f319935ed219dcb9914040"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T12:16:35Z"
+  },
+  {
+    "id": "2876020489",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 689450168,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "f91a0dd2b7ca4a1d6013e8854f38fc38046eba54",
+      "before": "fa1a9c23c813cdfc036a544e52b847dca15f891f",
+      "commits": [
+        {
+          "sha": "f91a0dd2b7ca4a1d6013e8854f38fc38046eba54",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "partial rough draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/f91a0dd2b7ca4a1d6013e8854f38fc38046eba54"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-09T11:55:02Z"
+  },
+  {
+    "id": "2874404049",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688865206,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "fa1a9c23c813cdfc036a544e52b847dca15f891f",
+      "before": "fa0f361800db7f206cdf2a17bb062afdcf548988",
+      "commits": [
+        {
+          "sha": "fa1a9c23c813cdfc036a544e52b847dca15f891f",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "Update github-api.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/fa1a9c23c813cdfc036a544e52b847dca15f891f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T22:16:54Z"
+  },
+  {
+    "id": "2873934719",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688700149,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "fa0f361800db7f206cdf2a17bb062afdcf548988",
+      "before": "d747923467cd4051acb90abda4beb319552630ca",
+      "commits": [
+        {
+          "sha": "fa0f361800db7f206cdf2a17bb062afdcf548988",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "Update github-api.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/fa0f361800db7f206cdf2a17bb062afdcf548988"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:44:33Z"
+  },
+  {
+    "id": "2873858376",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688673364,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "d747923467cd4051acb90abda4beb319552630ca",
+      "before": "9958d05a745f498c9d7c5f6cc51eacbd72f1e12f",
+      "commits": [
+        {
+          "sha": "d747923467cd4051acb90abda4beb319552630ca",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "Create github-api.md\n\nflag in the sand",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/d747923467cd4051acb90abda4beb319552630ca"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:19:45Z"
+  },
+  {
+    "id": "2873852239",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "id": 86275661,
+        "number": 243,
+        "title": "22 -- Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-08T18:05:24Z",
+        "updated_at": "2015-06-08T19:17:37Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110111423",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243#issuecomment-110111423",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "id": 110111423,
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-08T19:17:37Z",
+        "updated_at": "2015-06-08T19:17:37Z",
+        "body": "https://github.com/Epicurean306/TIY-Github/pull/3"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:17:37Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873839073",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "id": 86275661,
+        "number": 243,
+        "title": "22 -- Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-08T18:05:24Z",
+        "updated_at": "2015-06-08T19:13:08Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/comments/110110602",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243#issuecomment-110110602",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "id": 110110602,
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-08T19:13:08Z",
+        "updated_at": "2015-06-08T19:13:08Z",
+        "body": "https://github.com/Epicurean306/epicurean306.github.io/pull/12"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:13:09Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2873835021",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 12,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12",
+        "id": 37185716,
+        "html_url": "https://github.com/Epicurean306/epicurean306.github.io/pull/12",
+        "diff_url": "https://github.com/Epicurean306/epicurean306.github.io/pull/12.diff",
+        "patch_url": "https://github.com/Epicurean306/epicurean306.github.io/pull/12.patch",
+        "issue_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/12",
+        "number": 12,
+        "state": "open",
+        "locked": false,
+        "title": "journal-week-5",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T19:11:49Z",
+        "updated_at": "2015-06-08T19:11:49Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12/commits",
+        "review_comments_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12/comments",
+        "review_comment_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/12/comments",
+        "statuses_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/statuses/9958d05a745f498c9d7c5f6cc51eacbd72f1e12f",
+        "head": {
+          "label": "Epicurean306:journal-week-5",
+          "ref": "journal-week-5",
+          "sha": "9958d05a745f498c9d7c5f6cc51eacbd72f1e12f",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35053502,
+            "name": "epicurean306.github.io",
+            "full_name": "Epicurean306/epicurean306.github.io",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/epicurean306.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io",
+            "forks_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/releases{/id}",
+            "created_at": "2015-05-04T19:01:45Z",
+            "updated_at": "2015-06-05T14:59:43Z",
+            "pushed_at": "2015-06-08T19:11:49Z",
+            "git_url": "git://github.com/Epicurean306/epicurean306.github.io.git",
+            "ssh_url": "git@github.com:Epicurean306/epicurean306.github.io.git",
+            "clone_url": "https://github.com/Epicurean306/epicurean306.github.io.git",
+            "svn_url": "https://github.com/Epicurean306/epicurean306.github.io",
+            "homepage": null,
+            "size": 400,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Epicurean306:master",
+          "ref": "master",
+          "sha": "da84bec536e41a552c02d4bbf73c78b8cd791c11",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35053502,
+            "name": "epicurean306.github.io",
+            "full_name": "Epicurean306/epicurean306.github.io",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/epicurean306.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io",
+            "forks_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/releases{/id}",
+            "created_at": "2015-05-04T19:01:45Z",
+            "updated_at": "2015-06-05T14:59:43Z",
+            "pushed_at": "2015-06-08T19:11:49Z",
+            "git_url": "git://github.com/Epicurean306/epicurean306.github.io.git",
+            "ssh_url": "git@github.com:Epicurean306/epicurean306.github.io.git",
+            "clone_url": "https://github.com/Epicurean306/epicurean306.github.io.git",
+            "svn_url": "https://github.com/Epicurean306/epicurean306.github.io",
+            "homepage": null,
+            "size": 400,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12"
+          },
+          "html": {
+            "href": "https://github.com/Epicurean306/epicurean306.github.io/pull/12"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/12"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/issues/12/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/pulls/12/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/statuses/9958d05a745f498c9d7c5f6cc51eacbd72f1e12f"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 14,
+        "deletions": 0,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:11:49Z"
+  },
+  {
+    "id": "2873832038",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688664074,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "9958d05a745f498c9d7c5f6cc51eacbd72f1e12f",
+      "before": "20b54fb2344cb8f921e9953f754cb6debdcbc290",
+      "commits": [
+        {
+          "sha": "9958d05a745f498c9d7c5f6cc51eacbd72f1e12f",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "journal-week-5\n\nflag in the sand",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/9958d05a745f498c9d7c5f6cc51eacbd72f1e12f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:10:50Z"
+  },
+  {
+    "id": "2873817987",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688659107,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "20b54fb2344cb8f921e9953f754cb6debdcbc290",
+      "before": "212f6b5bcb5cde4fe68619d62514cdaecdf1a2ee",
+      "commits": [
+        {
+          "sha": "20b54fb2344cb8f921e9953f754cb6debdcbc290",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "journal-week-5\n\nflag in the sand",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/20b54fb2344cb8f921e9953f754cb6debdcbc290"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:06:11Z"
+  },
+  {
+    "id": "2873803181",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "push_id": 688653696,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "212f6b5bcb5cde4fe68619d62514cdaecdf1a2ee",
+      "before": "da84bec536e41a552c02d4bbf73c78b8cd791c11",
+      "commits": [
+        {
+          "sha": "212f6b5bcb5cde4fe68619d62514cdaecdf1a2ee",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "journal-week-5\n\nflag in the sand",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io/commits/212f6b5bcb5cde4fe68619d62514cdaecdf1a2ee"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T19:01:21Z"
+  },
+  {
+    "id": "2873752259",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35053502,
+      "name": "Epicurean306/epicurean306.github.io",
+      "url": "https://api.github.com/repos/Epicurean306/epicurean306.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-08T18:45:03Z"
+  },
+  {
+    "id": "2873630327",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 34401403,
+      "name": "TheIronYard--Orlando/2015--SUMMER--FEE",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues/243",
+        "id": 86275661,
+        "number": 243,
+        "title": "22 -- Planet of the APIs -- Ben Griffith",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-08T18:05:24Z",
+        "updated_at": "2015-06-08T18:05:24Z",
+        "closed_at": null,
+        "body": "* [ ] **Yak Shaving**\r\n  * _WIP Issue_: `22 -- Planet of the APIs -- Ben Griffith`\r\n    * Link to your PR in `Epicurean306.github.io`\r\n    * Link to your PR in `TIY-Github` from `develop` into `master`\r\n  *  _WIP Branch_:\r\n    * `Epicurean306.github.io:journal-week-5` from `master`\r\n    * `TIY-Github`\r\n      * `develop` from `master`\r\n      * `feature/*` from `develop`\r\n  * _WIP Files_:\r\n    * `Epicurean306.github.io`\r\n      * reflective journal\r\n      * tutorial journal\r\n      * bookmark journal\r\n      * `about/github-api.md`\r\n    * `TIY-Github`\r\n      * `src/index.html`\r\n      * `src/scss/main.scss`\r\n      * `src/css/.gitignore`\r\n      * `src/js/main.js`\r\n* [ ] **Journal, Week 5**\r\n  * [ ] draft of reflective journal\r\n  * [ ] draft of tutorial journal\r\n  * [ ] draft of bookmark journal\r\n* [ ] **Reading APIs**\r\n  * [ ] How does the API handle authentication?\r\n    * [ ] Do I need to authenticate?\r\n    * [ ] What can I do with an unauthenticated request?\r\n    * [ ] How can I authenticate my request? (3 ways)\r\n  * [ ] How do I ask the API for...\r\n    * [ ] The profile information for a specific user?\r\n    * [ ] The repository listing for a specific user?\r\n    * [ ] The recent, public activity for a specific user?\r\n  * [ ] Is there a limit to the number of requests I can make?\r\n    * [ ] Is there a way of extending that limit?\r\n    * [ ] What happens when I hit the limit?\r\n  * [ ] What if there is a _lot_ of data returned?\r\n    * [ ] How can I ask for more (or less) data from a request?\r\n    * [ ] How do I know that there is more data available?\r\n* [ ] **All your data is belong to us!**\r\n  * [ ] `feature/fetching-data`\r\n    * [ ] `octocat`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n    * [ ] `USERNAME`\r\n      * [ ] got profile data\r\n      * [ ] got repo data\r\n      * [ ] got activity data\r\n  * [ ] `feature/adding-placeholders`\r\n    * [ ] \"About\" column:\r\n      * [ ] avatar image\r\n      * [ ] name and login\r\n      * [ ] stats list\r\n    * [ ] \"Repositories\" column:\r\n      * [ ] Contributions\r\n      * [ ] Repositories\r\n      * [ ] Activity\r\n  * [ ] `feature/replacing-placeholders`\r\n    * [ ] `octocat`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity\r\n    * [ ] `USERNAME`\r\n      * [ ] \"About\" column:\r\n        * [ ] avatar image\r\n        * [ ] name and login\r\n        * [ ] stats list\r\n      * [ ] \"Repositories\" column:\r\n        * [ ] Contributions\r\n        * [ ] Repositories\r\n        * [ ] Activity"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T18:05:24Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2872687539",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "push_id": 688252945,
+      "size": 2,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "5d1e1440358cefeb000bbc8c615587a4a89678d0",
+      "before": "282d85569acaf2053cb49c2e9dacd6592a1f22c7",
+      "commits": [
+        {
+          "sha": "118b356178edc981dab2d55433c86e69cdc780a0",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "broken attempt at feature/profile section in progress",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/118b356178edc981dab2d55433c86e69cdc780a0"
+        },
+        {
+          "sha": "5d1e1440358cefeb000bbc8c615587a4a89678d0",
+          "author": {
+            "email": "Epicurean306@users.noreply.github.com",
+            "name": "Ben Forbes Griffith"
+          },
+          "message": "Merge pull request #5 from Epicurean306/feature/profile\n\nfeature/profile",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/5d1e1440358cefeb000bbc8c615587a4a89678d0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T13:29:30Z"
+  },
+  {
+    "id": "2872687522",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 5,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5",
+        "id": 37152960,
+        "html_url": "https://github.com/Epicurean306/TIY-Github/pull/5",
+        "diff_url": "https://github.com/Epicurean306/TIY-Github/pull/5.diff",
+        "patch_url": "https://github.com/Epicurean306/TIY-Github/pull/5.patch",
+        "issue_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5",
+        "number": 5,
+        "state": "closed",
+        "locked": false,
+        "title": "feature/profile",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T13:29:03Z",
+        "updated_at": "2015-06-08T13:29:29Z",
+        "closed_at": "2015-06-08T13:29:29Z",
+        "merged_at": "2015-06-08T13:29:29Z",
+        "merge_commit_sha": "42e656e5f38bcf803a1fa89dc1dbfacba29e8554",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/commits",
+        "review_comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/comments",
+        "review_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5/comments",
+        "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/118b356178edc981dab2d55433c86e69cdc780a0",
+        "head": {
+          "label": "Epicurean306:feature/profile",
+          "ref": "feature/profile",
+          "sha": "118b356178edc981dab2d55433c86e69cdc780a0",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36684314,
+            "name": "TIY-Github",
+            "full_name": "Epicurean306/TIY-Github",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/TIY-Github",
+            "description": "Github profile with data from the Github API",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/TIY-Github",
+            "forks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:41:02Z",
+            "updated_at": "2015-06-06T17:20:28Z",
+            "pushed_at": "2015-06-08T13:29:29Z",
+            "git_url": "git://github.com/Epicurean306/TIY-Github.git",
+            "ssh_url": "git@github.com:Epicurean306/TIY-Github.git",
+            "clone_url": "https://github.com/Epicurean306/TIY-Github.git",
+            "svn_url": "https://github.com/Epicurean306/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 3,
+            "forks": 0,
+            "open_issues": 3,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Epicurean306:develop",
+          "ref": "develop",
+          "sha": "282d85569acaf2053cb49c2e9dacd6592a1f22c7",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36684314,
+            "name": "TIY-Github",
+            "full_name": "Epicurean306/TIY-Github",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/TIY-Github",
+            "description": "Github profile with data from the Github API",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/TIY-Github",
+            "forks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:41:02Z",
+            "updated_at": "2015-06-06T17:20:28Z",
+            "pushed_at": "2015-06-08T13:29:29Z",
+            "git_url": "git://github.com/Epicurean306/TIY-Github.git",
+            "ssh_url": "git@github.com:Epicurean306/TIY-Github.git",
+            "clone_url": "https://github.com/Epicurean306/TIY-Github.git",
+            "svn_url": "https://github.com/Epicurean306/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 3,
+            "forks": 0,
+            "open_issues": 3,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5"
+          },
+          "html": {
+            "href": "https://github.com/Epicurean306/TIY-Github/pull/5"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/118b356178edc981dab2d55433c86e69cdc780a0"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 95,
+        "deletions": 1,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T13:29:29Z"
+  },
+  {
+    "id": "2872686107",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 5,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5",
+        "id": 37152960,
+        "html_url": "https://github.com/Epicurean306/TIY-Github/pull/5",
+        "diff_url": "https://github.com/Epicurean306/TIY-Github/pull/5.diff",
+        "patch_url": "https://github.com/Epicurean306/TIY-Github/pull/5.patch",
+        "issue_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5",
+        "number": 5,
+        "state": "open",
+        "locked": false,
+        "title": "feature/profile",
+        "user": {
+          "login": "Epicurean306",
+          "id": 11682684,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Epicurean306",
+          "html_url": "https://github.com/Epicurean306",
+          "followers_url": "https://api.github.com/users/Epicurean306/followers",
+          "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+          "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+          "repos_url": "https://api.github.com/users/Epicurean306/repos",
+          "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-06-08T13:29:03Z",
+        "updated_at": "2015-06-08T13:29:03Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/commits",
+        "review_comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/comments",
+        "review_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5/comments",
+        "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/118b356178edc981dab2d55433c86e69cdc780a0",
+        "head": {
+          "label": "Epicurean306:feature/profile",
+          "ref": "feature/profile",
+          "sha": "118b356178edc981dab2d55433c86e69cdc780a0",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36684314,
+            "name": "TIY-Github",
+            "full_name": "Epicurean306/TIY-Github",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/TIY-Github",
+            "description": "Github profile with data from the Github API",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/TIY-Github",
+            "forks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:41:02Z",
+            "updated_at": "2015-06-06T17:20:28Z",
+            "pushed_at": "2015-06-08T13:29:03Z",
+            "git_url": "git://github.com/Epicurean306/TIY-Github.git",
+            "ssh_url": "git@github.com:Epicurean306/TIY-Github.git",
+            "clone_url": "https://github.com/Epicurean306/TIY-Github.git",
+            "svn_url": "https://github.com/Epicurean306/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Epicurean306:develop",
+          "ref": "develop",
+          "sha": "282d85569acaf2053cb49c2e9dacd6592a1f22c7",
+          "user": {
+            "login": "Epicurean306",
+            "id": 11682684,
+            "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Epicurean306",
+            "html_url": "https://github.com/Epicurean306",
+            "followers_url": "https://api.github.com/users/Epicurean306/followers",
+            "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+            "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+            "repos_url": "https://api.github.com/users/Epicurean306/repos",
+            "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 36684314,
+            "name": "TIY-Github",
+            "full_name": "Epicurean306/TIY-Github",
+            "owner": {
+              "login": "Epicurean306",
+              "id": 11682684,
+              "avatar_url": "https://avatars.githubusercontent.com/u/11682684?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Epicurean306",
+              "html_url": "https://github.com/Epicurean306",
+              "followers_url": "https://api.github.com/users/Epicurean306/followers",
+              "following_url": "https://api.github.com/users/Epicurean306/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Epicurean306/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Epicurean306/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Epicurean306/subscriptions",
+              "organizations_url": "https://api.github.com/users/Epicurean306/orgs",
+              "repos_url": "https://api.github.com/users/Epicurean306/repos",
+              "events_url": "https://api.github.com/users/Epicurean306/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Epicurean306/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Epicurean306/TIY-Github",
+            "description": "Github profile with data from the Github API",
+            "fork": false,
+            "url": "https://api.github.com/repos/Epicurean306/TIY-Github",
+            "forks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/forks",
+            "keys_url": "https://api.github.com/repos/Epicurean306/TIY-Github/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Epicurean306/TIY-Github/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Epicurean306/TIY-Github/teams",
+            "hooks_url": "https://api.github.com/repos/Epicurean306/TIY-Github/hooks",
+            "issue_events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Epicurean306/TIY-Github/events",
+            "assignees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Epicurean306/TIY-Github/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/tags",
+            "blobs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Epicurean306/TIY-Github/languages",
+            "stargazers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/stargazers",
+            "contributors_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contributors",
+            "subscribers_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscribers",
+            "subscription_url": "https://api.github.com/repos/Epicurean306/TIY-Github/subscription",
+            "commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Epicurean306/TIY-Github/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Epicurean306/TIY-Github/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Epicurean306/TIY-Github/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Epicurean306/TIY-Github/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Epicurean306/TIY-Github/merges",
+            "archive_url": "https://api.github.com/repos/Epicurean306/TIY-Github/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Epicurean306/TIY-Github/downloads",
+            "issues_url": "https://api.github.com/repos/Epicurean306/TIY-Github/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Epicurean306/TIY-Github/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Epicurean306/TIY-Github/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Epicurean306/TIY-Github/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Epicurean306/TIY-Github/releases{/id}",
+            "created_at": "2015-06-01T19:41:02Z",
+            "updated_at": "2015-06-06T17:20:28Z",
+            "pushed_at": "2015-06-08T13:29:03Z",
+            "git_url": "git://github.com/Epicurean306/TIY-Github.git",
+            "ssh_url": "git@github.com:Epicurean306/TIY-Github.git",
+            "clone_url": "https://github.com/Epicurean306/TIY-Github.git",
+            "svn_url": "https://github.com/Epicurean306/TIY-Github",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 4,
+            "forks": 0,
+            "open_issues": 4,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5"
+          },
+          "html": {
+            "href": "https://github.com/Epicurean306/TIY-Github/pull/5"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/issues/5/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/pulls/5/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Epicurean306/TIY-Github/statuses/118b356178edc981dab2d55433c86e69cdc780a0"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 95,
+        "deletions": 1,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-08T13:29:03Z"
+  },
+  {
+    "id": "2872476042",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 35175392,
+      "name": "Epicurean306/TIY-Assignments",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 688171426,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/QuotesRotator/remodeling/basics",
+      "head": "309f9da0dc5d670ce2fc7b9aff51be9a00afdd61",
+      "before": "8a7960c43abe51c4fb85217f3c035d140d641c14",
+      "commits": [
+        {
+          "sha": "309f9da0dc5d670ce2fc7b9aff51be9a00afdd61",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "still not working styles",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Assignments/commits/309f9da0dc5d670ce2fc7b9aff51be9a00afdd61"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-08T12:13:12Z"
+  },
+  {
+    "id": "2871573605",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "ref": "feature/profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Github profile with data from the Github API",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-06-08T04:51:06Z"
+  },
+  {
+    "id": "2871102491",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "push_id": 687662495,
+      "size": 3,
+      "distinct_size": 1,
+      "ref": "refs/heads/develop",
+      "head": "282d85569acaf2053cb49c2e9dacd6592a1f22c7",
+      "before": "6dacb2863d4b01a1f2234f626599c0f0cf15d30a",
+      "commits": [
+        {
+          "sha": "d29b23e6751d8325394ea388806554e02cd9ce80",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "broken styles, contributions tab in progress",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/d29b23e6751d8325394ea388806554e02cd9ce80"
+        },
+        {
+          "sha": "289a654b6ad1fca12e295f3f6d7adcf6bc79dc60",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "browser-sync",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/289a654b6ad1fca12e295f3f6d7adcf6bc79dc60"
+        },
+        {
+          "sha": "282d85569acaf2053cb49c2e9dacd6592a1f22c7",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "develop branch ready for more features",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/282d85569acaf2053cb49c2e9dacd6592a1f22c7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-07T20:43:08Z"
+  },
+  {
+    "id": "2871093601",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11682684,
+      "login": "Epicurean306",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Epicurean306",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11682684?"
+    },
+    "repo": {
+      "id": 36684314,
+      "name": "Epicurean306/TIY-Github",
+      "url": "https://api.github.com/repos/Epicurean306/TIY-Github"
+    },
+    "payload": {
+      "push_id": 687659043,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/tabs",
+      "head": "289a654b6ad1fca12e295f3f6d7adcf6bc79dc60",
+      "before": "d29b23e6751d8325394ea388806554e02cd9ce80",
+      "commits": [
+        {
+          "sha": "289a654b6ad1fca12e295f3f6d7adcf6bc79dc60",
+          "author": {
+            "email": "benjaminforbesgriffith@gmail.com",
+            "name": "Epicurean306"
+          },
+          "message": "browser-sync",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Epicurean306/TIY-Github/commits/289a654b6ad1fca12e295f3f6d7adcf6bc79dc60"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-07T20:33:53Z"
+  }
+]
