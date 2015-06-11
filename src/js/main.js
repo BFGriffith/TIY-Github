@@ -6,10 +6,10 @@ the <select> ... but I got tired and ran out of time.
 */
 (function(window) {
 
-    //var select = $('#selectUsername');
-    //if (select === octocat) {
+    var select = document.querySelectorAll('option:checked');
+    if (select = 'octocat') {
         $.getJSON('../api/github/users/octocat.json')
-            .then(function(octocat) {
+            .then(function() {
                 $avatar = $('img#avatar');
                 $avatar.attr('src', octocat.avatar_url);
                 $('[data-bind="user.name"]').text(octocat.name);
@@ -21,10 +21,9 @@ the <select> ... but I got tired and ran out of time.
                 $('[data-bind="user.email"]').text(octocat.email);
                 $('[data-bind="user.blog"]').text(octocat.blog);
             });
-/*
-    } else if (select === Epicurean306) {
+    } else if (select = Epicurean306) {
         $.getJSON('../api/github/users/Epicurean306.json')
-            .then(function(Epicurean306) {
+            .then(function() {
                 $avatar = $('img#avatar');
                 $avatar.attr('src', Epicurean306.avatar_url);
                 $('[data-bind="user.name"]').text(Epicurean306.name);
@@ -37,7 +36,7 @@ the <select> ... but I got tired and ran out of time.
                 $('[data-bind="user.blog"]').text(Epicurean306.blog);
             });
     };
-*/
+
 
     /*
       $.getJSON("https://api.github.com/users/octocat").then(function(data){
