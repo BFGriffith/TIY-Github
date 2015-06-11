@@ -16,8 +16,10 @@
     "tests"
   ],
   "dependencies": {
+    "normalize": "~1.0.4",
     "pure": "~0.6.0",
     "jquery": "~2.1.4",
-    "lodash": "~3.9.3"
-  }
+    "lodash": "~3.9.3",
+    "octicons": "~2.4.1"
+  },
 }
