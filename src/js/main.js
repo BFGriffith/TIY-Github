@@ -7,7 +7,7 @@ the <select> ... but I got tired and ran out of time.
 (function(window) {
 
     var select = document.querySelectorAll('option:checked');
-    if (select = 'octocat') {
+    if (select = "octocat") {
         $.getJSON('../api/github/users/octocat.json')
             .then(function() {
                 $avatar = $('img#avatar');
@@ -21,7 +21,7 @@ the <select> ... but I got tired and ran out of time.
                 $('[data-bind="user.email"]').text(octocat.email);
                 $('[data-bind="user.blog"]').text(octocat.blog);
             });
-    } else if (select = Epicurean306) {
+    } else if (select = "Epicurean306") {
         $.getJSON('../api/github/users/Epicurean306.json')
             .then(function() {
                 $avatar = $('img#avatar');
