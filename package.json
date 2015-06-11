@@ -4,8 +4,9 @@
   "description": "building Github profile with data from the Github API",
   "main": "src/index.html",
   "scripts": {
- "test": "browser-sync start --server --files='src/js/*.js,src/test/index.html,src/test/spec/**/*.js' --startPath src/test/index.html",
- "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js' --startPath src/index.html"
+    "test": "browser-sync start --server --files='src/js/*.js,src/test/index.html,src/test/spec/**/*.js' --startPath src/test/index.html",
+    "start": "browser-sync start --server --files='src/index.html,src/css/*.css,src/js/*.js' --startPath src/index.html",
+    "sass": "node-sass src/scss/main.scss -o src/css/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Epicurean306/TIY-Github/issues"
   },
-  "homepage": "https://github.com/Epicurean306/TIY-Github"
+  "homepage": "https://github.com/Epicurean306/TIY-Github",
+  "devDependencies": {
+    "node-sass": "^3.1.2",
+    "wiredep": "^2.2.2"
+  },
+  "dependencies": {
+  }
 }

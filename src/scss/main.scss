@@ -90,118 +90,162 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.tab-row {
-    display: block;
-    text-align: center;
-    margin-top: 2ex;
-    margin-bottom: 6ex;
-    list-style: none;
-}
-.tab-row ul {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    border-bottom: .2ex solid lightgrey;
-}
-.tab-row ul li {
-    display: inline-block;
-    width: 33%;
-    min-width: 3em;
-    padding: 0;
-    border-top: .2ex solid lightgray;
-    border-left: .2ex solid lightgray;
-    border-right: .2ex solid lightgray;
-    line-height: 2em;
-    cursor: pointer;
-}
-.tab-row a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    padding: .45ex 0 .45ex 0;
-    color: lightgray;
-    font-size: 2ex;
-    line-height: 3ex;
-}
-.tab-row a:hover {
-    color: darkgray;
-}
-.tab-row .tab-current {
-    border-top: .4ex solid lightgrey;
-    border-left: .2ex solid lightgrey;
-    border-right: .2ex solid lightgrey;
-    border-bottom: .2ex solid white;
-}
-.tab-current a {
-    color: black;
-}
-.tab-current a:hover {
-    color: darkgrey;
-    text-decoration: underline;
-}
-section {
-    display: none;
-    width: 100%;
-}
-.singlePanel {
-    display: block;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    color: black;
-}
-}
-.singlePanel > p {
-    font-size: 2ex;
-    margin-bottom: 2ex;
-}
-.container .panels .content-current {
-    display: block;
-}
-@media screen and (min-width: 32em) {
-    .tab-row ul li {
-        margin-right: .2ex;
-        margin-left: .2ex;
-        width: 32%;
-    }
-    .singlePanel {
-        display: block;
-        width: 90%;
-        margin: auto;
-        text-align: left;
-        color: lightgrey;
-        margin-bottom: 1ex;
-    }
-    .singlePanel .text {
-        display: inline-block;
-        width: 55%;
-        font-size: 2ex;
-        vertical-align: middle;
-        margin-left: 1em;
-    }
-}
-@media screen and (min-width: 55em) {
-    .tab-row a span {
-        display: inline;
-        margin: 4px;
-    }
-    section {
-        margin-left: .75%;
-    }
-    .singlePanel {
-        display: inline-block;
-        width: 30%;
-        margin-left: 1.25%;
-        margin-right: 1.25%;
-        text-align: left;
-        color: lightgrey;
-    }
-    .singlePanel .text {
-        display: inline-block;
-        width: 95%;
-        font-size: 2ex;
-    }
-}
+   .grid {
+     $grid-width: 100%;
+     max-width: 80%;
+
+     @extend .clearfix;
+
+     width: $grid-width;
+     margin: 0 auto;
+
+     background-color: lightgrey;
+     outline: 2px solid red;
+
+     .unit-span-1 {
+       background-color: gray;
+       outline: 2px solid blue;
+
+       float: left;
+       width: ($grid-width/8) * 1;
+
+       padding-left: 2em;
+       box-sizing: border-box;
+       &:first-child {
+         padding-left: 0;
+       }
+     }
+     .unit-span-2 {
+       @extend .unit-span-1;
+
+       width: ($grid-width/8) * 2;
+     }
+     .unit-span-4 {
+       @extend .unit-span-1;
+
+       width: ($grid-width/8) * 4;
+     }
+     .offset-2 {
+       margin-left: ($grid-width/8) * 2;
+     }
+   }
+
+   .tab-row {
+       display: block;
+       font-family: Arial;
+       color: #6894CD;
+       font-size: 2ex;
+       font-weight: 650;
+       text-align: center;
+       width: 90%;
+       margin-top: 2ex;
+       margin-bottom: 2ex;
+       list-style: none;
+   }
+   ul{
+     padding: 0;
+     margin: 0;
+   }
+   .tab-row ul {
+       width: 100%;
+       border-bottom: .2ex solid lightgrey;
+       box-sizing: border-box;
+   }
+   .tab-row ul li {
+       display: inline-block;
+       width: 33%;
+       min-width: 3em;
+       padding: 0;
+       border-top: .2ex solid lightgray;
+       border-left: .2ex solid lightgray;
+       border-right: .2ex solid lightgray;
+       line-height: 2em;
+       cursor: pointer;
+   }
+   .tab-row a {
+       display: block;
+       width: 100%;
+       text-decoration: none;
+       padding: .45ex 0 .45ex 0;
+       color: #6894CD;
+       font-size: 2ex;
+       line-height: 3ex;
+   }
+   .tab-row a:hover {
+       color: darkgray;
+       text-decoration: underline;
+   }
+   .tab-row .tab-current {
+       border-top: .4ex solid lightgrey;
+       border-left: .2ex solid lightgrey;
+       border-right: .2ex solid lightgrey;
+       border-bottom: .2ex solid white;
+   }
+   .tab-current a {
+       color: black;
+   }
+   .tab-current a:hover {
+       color: darkgrey;
+       text-decoration: underline;
+   }
+   .singlePanel {
+       display: block;
+       width: 90%;
+       margin: auto;
+       text-align: center;
+       color: black;
+   }
+   .singlePanel > p {
+       font-size: 2ex;
+       margin-bottom: 2ex;
+   }
+   .container .panels .content-current {
+       display: block;
+   }
+   @media screen and (min-width: 32em) {
+       .tab-row ul li {
+           margin-right: .2ex;
+           margin-left: .2ex;
+           width: 32%;
+       }
+       .singlePanel {
+           display: block;
+           width: 90%;
+           margin: auto;
+           text-align: left;
+           color: lightgrey;
+           margin-bottom: 1ex;
+       }
+       .singlePanel .text {
+           display: inline-block;
+           width: 55%;
+           font-size: 2ex;
+           vertical-align: middle;
+           margin-left: 1em;
+       }
+   }
+   @media screen and (min-width: 55em) {
+       .tab-row a span {
+           display: inline;
+           margin: 4px;
+       }
+       section {
+           margin-left: .75%;
+       }
+       .singlePanel {
+           display: inline-block;
+           width: 30%;
+           margin-left: 1.25%;
+           margin-right: 1.25%;
+           text-align: left;
+           color: lightgrey;
+       }
+       .singlePanel .text {
+           display: inline-block;
+           width: 95%;
+           font-size: 2ex;
+       }
+   }
 
 /* ==========================================================================
    Helper classes

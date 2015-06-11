@@ -7,14 +7,36 @@
     <title></title>
     <meta name="Octocat" content="responsive GitHub profile example">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/pure/pure.css" />
+    <!-- endbower -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="../bower_components/octicons/octicons/octicons.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
-    <main class="container">
+
+  <section class="grid">
+            <div class="unit-span-1"><div>1</div></div>
+            <div class="unit-span-1"><div>2</div></div>
+            <div class="unit-span-1">3</div>
+            <div class="unit-span-1">4</div>
+            <div class="unit-span-1">5</div>
+            <div class="unit-span-1">6</div>
+            <div class="unit-span-1">7</div>
+            <div class="unit-span-1">8</div>
+          </section><!--.grid-->
+          <section class="grid">
+            <div class="unit-span-2">2 col</div>
+            <div class="unit-span-4">4 col</div>
+            <div class="unit-span-2">2 col</div>
+          </section>
+          <section class="grid">
+            <div class="unit-span-4 offset-2">.unit-span-4.offset-2</div>
+          </section>
+
+    <main class="mainContainer">
         <nav class="tab-row">
             <ul>
                 <li class="tab-current">
@@ -151,12 +173,13 @@
         </div>
         <!-- .panels -->
     </main>
-    <!-- .container -->
+    <!-- .mainContainer -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-    </script>
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/lodash/lodash.js"></script>
+    <!-- endbower -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 </body>
