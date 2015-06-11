@@ -202,6 +202,63 @@ textarea {
    .container .panels .content-current {
        display: block;
    }
+   .profile {
+  border-bottom: .25ex solid lightgray;
+}
+.profile div {
+  display: inline-block;
+  height: 10em;
+  vertical-align: top;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.profile .profileAvatar {
+  box-sizing: border-box;
+  width: 10em;
+  padding-left: 1em;
+}
+
+.profile .profile-image img {
+  border-radius: 5%;
+}
+
+.profile div .user-info {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 2ex;
+}
+
+.profile li {
+  line-height: 3ex;
+}
+
+.profile-info .name {
+  font-size: 3ex;
+  font-weight: bold;
+  line-height: 3ex;
+  text-decoration-color: black;
+}
+
+.profile-info .subheading {
+  color: darkgrey;
+  font-size: 5ex;
+  font-weight: bold;
+  padding-bottom: 1ex;
+}
+
+.profile-info li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.profile-info span {
+  margin-right: .25em;
+  width: 1.1em;
+  text-align: center;
+  color: lightgrey;
+}
    @media screen and (min-width: 32em) {
        .tab-row ul li {
            margin-right: .2ex;
